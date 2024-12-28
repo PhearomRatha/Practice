@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Result</title>
+    <style>
+        #userForm{
+            width: 500px;
+            height: 200px;
+            text-align: center;
+            margin: auto;
+        }
+        h2, p {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <form id="userForm">
+        <input type="text" placeholder="Enter your name" id="userInputname" required>
+        <input type="number" placeholder="Enter your age" id="userInputage" required>
+        <button type="button" id="saveButton">Save</button>
+    </form>
+
+    <h2 id="resultHeading">Result</h2>
+    <p id="User name"></p>
+    <p id="User age"></p>
+
+  
+</body>
+</html>
